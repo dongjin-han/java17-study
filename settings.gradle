@@ -1,0 +1,5 @@
+rootProject.name = 'java17-study'
+include 'module-api'
+include 'module-core'
+include 'module-consumer'
+

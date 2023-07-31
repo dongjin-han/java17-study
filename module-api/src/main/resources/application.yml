@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    include:
+      - db
+      - actuator
+      - aws
+      - circuitbreaker
+      - kafka
+      - redis
+      - gracefulshutdown
+      - ratelimiter
+    group:
+      local: gracefulshutdown-api, db-local, actuator-local, aws-local, kafka-local, redis-local
+    active: local
+  application:
+    name: java17study
