@@ -13,5 +13,9 @@ public class Chapter7Main {
 
         System.out.println("child2 I " + child2.printI());
         // System.out.println("child2 J " + child2.printJ()); 컴파일 에러
+
+        var newChild = new NewChild();
+
+        newChild.makeFood();
     }
 }
