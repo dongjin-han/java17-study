@@ -30,5 +30,7 @@ public class Main {
         var seungjin = new Student("승진");
 
         firstCourse.addReview("좋아", seungjin);
+        firstCourse.addReview("좋아2", seungjin);
+
     }
 }
